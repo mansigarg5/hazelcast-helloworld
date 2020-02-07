@@ -1,0 +1,13 @@
+Download Hazelcast
+
+Give rights to WAR file with the following command:
+sudo chmod -R 777 mancenter-3.7.1.war
+
+Run mancenter.war in hazelcast -> mancenter with the following command:
+java -jar mancenter-3.7.1.war 8080 mancenter
+(Check the versions of java home and path to be 1.8 or above)
+
+Run the following URL:
+http://localhost:8080/mancenter
+
+
